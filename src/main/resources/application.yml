@@ -1,6 +1,20 @@
+# Micronaut Properties
 micronaut:
   application:
     name: quickstart
+  server:
+    port: ${SERVER_PORT:8080}
+
+
+# Custom Properties
+hello:
+  world:
+    message: "Hello from application.yml"
+    translation:
+      en: "Hello World"
+      ro: "Salut Lume"
+
+#Netty Server
 netty:
   default:
     allocator:

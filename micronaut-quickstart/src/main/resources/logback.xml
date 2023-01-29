@@ -9,8 +9,6 @@
         </encoder>
     </appender>
 
-    <logger name="com.micronaut.quickstart.controller" level="DEBUG"/>
-
     <root level="info">
         <appender-ref ref="STDOUT" />
     </root>

@@ -1,4 +1,4 @@
-package com.micronaut.quickstart.micronaut;
+package com.micronaut.quickstart;
 
 import io.micronaut.runtime.Micronaut;
 
